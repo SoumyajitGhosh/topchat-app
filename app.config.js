@@ -13,6 +13,9 @@ export default {
       resizeMode: "contain",
       backgroundColor: "#ffffff",
     },
+    updates: {
+      fallbackToCacheTimeout: 0,
+    },
     assetBundlePatterns: ["**/*"],
     ios: {
       supportsTablet: true,
